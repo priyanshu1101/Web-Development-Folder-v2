@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+} 
+
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    /* font-family: "Montserrat-light"; */
+}
+
+/* Download Buttons */
+.DownloadButtons {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Image */
+.phoneimage {
+    width: 20rem;
+    height: auto;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index:  ; */
+}
+
+.featureparagraph {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.featuresImage {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.featuresImage:hover {
+    color: #ff4c68;
+}
+
+.featureheading {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* Testimonial */
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* Price cards */
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-text {
+
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.row {
+    padding: 7% 0%;
+}
+
+.pricing-card-heading {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* Media below 1000px*/
+@media(max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .phoneimage {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* lower container */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.bottomtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+#footer {
+    padding: 4% 15% 1%;
+    background-color: white;
+    text-align: center;
+}
+
+.footerlinkbuttons {
+    margin: 20px 10px;
+}

@@ -1,0 +1,39 @@
+h1
+{
+    font-size: 50px;
+    color: blue;
+}
+h1:hover
+{
+    color: gold;
+}
+/* img
+{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+} */
+img:hover
+{
+    background-color: gold;
+}
+.broccoli
+{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}
+.bacon
+{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+}
+.circular
+{
+    border-radius: 10%;
+}
+#heading
+{
+    color: blue;
+}
